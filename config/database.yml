@@ -50,6 +50,7 @@ test:
 #
 production:
   <<: *default
+  adapter: mysql2
   host: us-cdbr-iron-east-04.cleardb.net
   database: heroku_42c5c63a1de9dfb
   username: b180db88eb40cf
