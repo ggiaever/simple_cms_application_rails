@@ -8,18 +8,19 @@
 #
 # And be sure to use new-style password hashing:
 #   http://dev.mysql.com/doc/refman/5.7/en/old-client.html
-#
+#mysql://b180db88eb40cf:2fe21e43@us-cdbr-iron-east-04.cleardb.net/heroku_42c5c63a1de9dfb?reconnect=true
 default: &default
   adapter: mysql2
   encoding: utf8
   pool: 5
-  username: rails_user
-  password: secretpassword
+  host: us-cdbr-iron-east-04.cleardb.net
+  username: b180db88eb40cf
+  password: 2fe21e43
   socket: /tmp/mysql.sock
 
 development:
   <<: *default
-  database: simple_cms_development
+  database: heroku_42c5c63a1de9dfb
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
