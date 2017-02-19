@@ -50,6 +50,7 @@ test:
 #
 production:
   <<: *default
-  database: simple_cms_production
-  username: simple_cms
+  host: us-cdbr-iron-east-04.cleardb.net
+  database: heroku_42c5c63a1de9dfb
+  username: b180db88eb40cf
   password: <%= ENV['SIMPLE_CMS_DATABASE_PASSWORD'] %>
