@@ -41,8 +41,6 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (7.1.4)
-    bcrypt (3.1.11-x64-mingw32)
-    bcrypt (3.1.11-x86-mingw32)
     builder (3.2.3)
     coffee-rails (4.2.1)
       coffee-script (>= 2.2.0)
@@ -162,7 +160,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-mysql2-adapter
-  bcrypt (~> 3.1.7)
+  bcrypt
   byebug
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
